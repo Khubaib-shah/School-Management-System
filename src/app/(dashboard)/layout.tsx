@@ -18,7 +18,7 @@ export default function DashboardLayout({
         >
           <Image src="/logo.png" alt="Logo" width={32} height={32} />
 
-          <span className="hidden lg:block">NextGen SS</span>
+          <span className="hidden lg:block font-bold">NextGen SS</span>
         </Link>
 
         <Menu />

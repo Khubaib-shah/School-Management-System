@@ -915,116 +915,154 @@ export const announcementsData = [
   },
 ];
 
-// Automatically use current date for visibility
-const today = new Date();
-
+// Weekly school timetable — dummy static data
 export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      8,
-      0
-    ),
-    end: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      8,
-      45
-    ),
+    start: new Date(2025, 9, 27, 8, 0),
+    end: new Date(2025, 9, 27, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      9,
-      0
-    ),
-    end: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      9,
-      45
-    ),
+    start: new Date(2025, 9, 27, 9, 0),
+    end: new Date(2025, 9, 27, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      10,
-      0
-    ),
-    end: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      10,
-      45
-    ),
+    start: new Date(2025, 9, 27, 10, 0),
+    end: new Date(2025, 9, 27, 10, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 9, 27, 13, 0),
+    end: new Date(2025, 9, 27, 13, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      11,
-      0
-    ),
-    end: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      11,
-      45
-    ),
+    start: new Date(2025, 9, 27, 11, 0),
+    end: new Date(2025, 9, 27, 11, 45),
   },
+
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      13,
-      0
-    ),
-    end: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      13,
-      45
-    ),
+    start: new Date(2025, 9, 28, 8, 0),
+    end: new Date(2025, 9, 28, 8, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      14,
-      0
-    ),
-    end: new Date(
-      today.getFullYear(),
-      today.getMonth(),
-      today.getDate(),
-      14,
-      45
-    ),
+    start: new Date(2025, 9, 28, 9, 0),
+    end: new Date(2025, 9, 28, 9, 45),
+  },
+  {
+    title: "Computer Science",
+    allDay: false,
+    start: new Date(2025, 9, 28, 10, 0),
+    end: new Date(2025, 9, 28, 10, 45),
+  },
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 9, 28, 11, 0),
+    end: new Date(2025, 9, 28, 11, 45),
+  },
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 9, 28, 14, 0),
+    end: new Date(2025, 9, 28, 14, 45),
+  },
+
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 9, 29, 8, 0),
+    end: new Date(2025, 9, 29, 8, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 9, 29, 9, 0),
+    end: new Date(2025, 9, 29, 9, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 9, 29, 10, 0),
+    end: new Date(2025, 9, 29, 10, 45),
+  },
+  {
+    title: "Geography",
+    allDay: false,
+    start: new Date(2025, 9, 29, 11, 0),
+    end: new Date(2025, 9, 29, 11, 45),
+  },
+  {
+    title: "Geography",
+    allDay: false,
+    start: new Date(2025, 9, 29, 14, 0),
+    end: new Date(2025, 9, 29, 14, 45),
+  },
+
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 9, 30, 8, 0),
+    end: new Date(2025, 9, 30, 8, 45),
+  },
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 9, 30, 9, 0),
+    end: new Date(2025, 9, 30, 9, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 9, 30, 10, 0),
+    end: new Date(2025, 9, 30, 10, 45),
+  },
+  {
+    title: "Computer Science",
+    allDay: false,
+    start: new Date(2025, 9, 30, 11, 0),
+    end: new Date(2025, 9, 30, 11, 45),
+  },
+
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 9, 31, 8, 0),
+    end: new Date(2025, 9, 31, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 9, 31, 15, 0),
+    end: new Date(2025, 9, 31, 15, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 9, 31, 9, 0),
+    end: new Date(2025, 9, 31, 9, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 9, 31, 10, 0),
+    end: new Date(2025, 9, 31, 10, 45),
+  },
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 9, 31, 11, 0),
+    end: new Date(2025, 9, 31, 11, 45),
   },
 ];

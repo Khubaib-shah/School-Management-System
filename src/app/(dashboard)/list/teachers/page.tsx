@@ -69,7 +69,7 @@ const TeachersListPage = () => {
         />
         <div className="flex flex-col">
           <h3 className="font-semibold">{item.name}</h3>
-          <p className="text-xs text-gray-50">{item?.email}</p>
+          <p className="text-xs text-gray-500">{item?.email}</p>
         </div>
       </td>
       <td className="hidden md:table-cell">{item.teacherId}</td>
@@ -109,9 +109,11 @@ const TeachersListPage = () => {
             <button className="w-8 h-8 flex items-center justify-center rounded-full bg-Yellow">
               <Image src="/sort.png" alt="btn" width={14} height={14} />
             </button>
-            <button className="w-8 h-8 flex items-center justify-center rounded-full bg-Yellow">
-              <Image src="/plus.png" alt="btn" width={14} height={14} />
-            </button>
+            {role === "admin" && (
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-Yellow">
+                <Image src="/plus.png" alt="btn" width={14} height={14} />
+              </button>
+            )}
           </div>
         </div>
       </div>
